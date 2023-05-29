@@ -1,0 +1,283 @@
+:root{
+    --primaryColor: #ff274b;
+    --secondaryColor: #f7bcf7;
+    --lightColor: #ffffff;
+    --bgColor-1: #171a1c;
+    --bgColor-2: #22282a;
+    --pading: 8%;
+}
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+header{
+    background-color: var(--bgColor-1);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo{
+    text-decoration: none;
+    color: var(--lightColor);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.logo span{
+    color: var(--primaryColor);
+}
+
+section{
+    padding: 100px 200px ;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/my\ image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2{
+    color: var(--lightColor);
+    font-size: 1.4em;
+    font-weight: 500;
+
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: var(--primaryColor);
+    font-size: 3em;
+    font-weight: 600;
+}
+.main h3 {
+    color: var(--lightColor);
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn{
+    color: var(--primaryColor);
+    background-color: var(--bgColor-2);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.4s ease;
+
+}
+
+.main-btn:hover{
+    background-color: var(--lightColor);
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    padding-right: 30px;
+}
+
+
+
+.navbar a{
+    color: var(--lightColor);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navbar a:hover{
+    color: var(--primaryColor);
+
+}
+
+
+
+.about{
+background: url(images/About.png) no-repeat;
+padding: 2rem var(--pading);
+align-items: center;
+justify-content: space-evenly ;
+width: 100%;
+min-height: 100vh;
+display: flex;
+align-items: center;
+background-size: cover;
+background-position: center;
+background-attachment: fixed;
+}
+  
+
+
+
+.about .container-texts{
+    width: 35%;
+}
+
+.about h1{
+    color: var(--lightColor);
+}
+.about h1 span{
+    color: var(--primaryColor);
+}
+
+.about h5{
+    color: var(--lightColor);
+    font-size: 1.37rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+}
+.about h5 span{
+    color: var(--primaryColor);
+}
+
+.about p{
+    color: var(--secondaryColor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size:1rem ;
+}
+
+.goals{
+  background-color: var(--bgColor-2);
+  padding: var(--pading);
+  display: flex;
+}
+
+#goals .container {
+  display: flex;
+  align-items: center;
+}
+
+#goals .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#goals .image-container {
+  flex-basis: 40%; /* Adjust the width of the image container */
+  text-align: left;
+}
+
+#goals .image-container img {
+  max-width: 100%; /* Adjust the size of the image */
+}
+
+#goals .text-container {
+  flex-basis: 60%; /* Adjust the width of the text container */
+  text-align: left;
+}   
+
+    
+.goals h1{
+   color: var(--lightColor);
+   margin-bottom: 2rem;
+}
+.goals h1 span{
+   color: var(--primaryColor);
+}
+
+.goals h5{
+  color: var(--lightColor);
+  font-size: 1.37rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+}
+.goals h5 span{
+  color: var(--primaryColor);
+}
+    
+.goals p{
+  color: var(--secondaryColor);
+ letter-spacing: 1px;
+ line-height: 1.8rem;
+  font-size:1rem ;
+  margin-bottom: 2rem;
+}
+
+#contact {
+ padding: 50px 20px;
+  text-align: center;
+ background-color: #f5f5f5;
+}
+  
+#contact h2 {
+margin-bottom: 20px;
+color:var(--bgColor-2);
+}
+  
+#contact .contact-info {
+max-width: 600px;
+ margin: 0 auto;
+}
+  
+#contact p {
+font-size: 18px;
+line-height: 1.6;
+color: #555;
+margin-bottom: 20px;
+}
+  
+#contact form {
+text-align: left;
+}
+  
+#contact .form-group {
+ margin-bottom: 20px;
+}
+  
+#contact label {
+display: block;
+font-size: 16px;
+color: #555;
+margin-bottom: 5px;
+}
+  
+#contact input,
+#contact textarea {
+width: 100%;
+padding: 10px;
+font-size: 16px;
+border-radius: 4px;
+border: 1px solid #ccc;
+}
+  
+#contact button {
+padding: 10px 20px;
+font-size: 16px;
+color: var(--lightColor);
+background-color: #333;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+  
+#contact button:hover {
+background-color: #555;
+}
