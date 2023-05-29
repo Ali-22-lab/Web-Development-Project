@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatiple" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="My Portfolio">
+            <!--Keywords-->
+    <meta name="keywords" content="Ali, Albouti, Ali Albouti, Web design, JS, HTML5, CSS">
+    <!--CSS-Style-->
+    <link rel="stylesheet" href="MyPortfolio.css"/>
+    <link rel="icon" href="icon/myicon.ico.ico"/>
+         <!--fonts Styles-->
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+           <!--icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>My responsive Portfolio</title>
+  </head>
+  <body>
+    <header>
+        <a href="#" class="logo">Ali <span>Albouti</span> </a>
+       <nav class="navbar">
+          <a href="MyPortfolio.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="goals.html">Goals</a>
+          <a href="contact.html" class="contact-link">Contact</a>
+          
+       
+        </nav>
+     </header>
+
+     <section class="main" id="home">
+      <div>
+          <h2>Hello, I'm Ali<br> <span>Computing Student</span></h2>
+           <h3>A Web student with a Passion for Creativity</h3>
+
+           <a href="#projects" class="main-btn">Open My Cv</a>
+
+          <div class="social-icons">
+
+           <a href="#"><img src="images/facebook.png" alt=""></a>
+           <a href="#"><img src="images/insta.png" alt=""></a>
+           <a href="#"><img src="images/linkedln.png" alt=""></a>
+
+          </div>
+
+        
+      </div>
+   </section>
+          
+
+   <section class="about" id="about">
+    <div class="container-texts">
+      <!-- About Me content... -->
+      <h1>About <span>Me</span></h1>
+      <h5><span>Computing</span>Student</h5>
+     <p>
+      Hi there! I'm Ali, a passionate computing student with a keen interest in technology and problem-solving. Currently pursuing my degree in Computing, I'm excited about exploring the fascinating world of software development, artificial intelligence, and cybersecurity.
+    </p>
+    <p>
+      Throughout my academic journey, I have gained practical experience in various programming languages such as C++, Java Script, HTML and CSS. I enjoy creating innovative and efficient solutions to real-world challenges. I believe in continuous learning and keeping up with the latest industry trends to enhance my skills and knowledge.
+    </p>
+
+  
+    </div>
+  </section>
+
+        
+   
+   <section class="goals" id="goals">
+    <div class="container">
+      <div class="content">
+    <div class="image-container">
+      <img src="images/My goals.png" alt="">
+    </div>
+    <div class="text-container">
+      <h1>My <span>Goals</span></h1>
+      <div class="goal">
+        <h5><span>Master the Craft of</span> Software Engineering</h5>
+        <p>
+          My goal is to become a master in the art of software engineering. I am dedicated to honing my skills in software design, development, and testing. I will immerse myself in various programming languages and frameworks, applying best practices to create efficient, scalable, and robust software solutions.
+        </p>
+      </div>
+      <div class="goal">
+        <h5>Explore Cutting-Edge <span>Technologies</span></h5>
+        <p>
+          I aspire to stay at the forefront of technology by constantly exploring new advancements in the field of software engineering. My goal is to dive into emerging technologies such as artificial intelligence, blockchain, cloud computing, and Internet of Things (IoT). By keeping up with the latest trends, I can develop innovative and future-proof solutions.
+        </p>
+      </div>
+      <div class="goal">
+        <h5>Collaborate on <span>Challenging Projects</span></h5>
+        <p>
+          I am eager to collaborate with talented individuals on challenging software projects. My goal is to work in diverse teams, leveraging collective knowledge and expertise to tackle complex problems. Through collaboration, I aim to enhance my communication and teamwork skills while contributing to impactful and meaningful projects.
+        </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+        <section id="contact">
+          <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+              <p>
+                I would love to connect with you! Please fill out the form below to get in touch.
+              </p>
+              <form id="contact-form" action="contact.php" method="POST">
+                <div class="form-group">
+                  <label for="name">Name:</label>
+                  <input t#ype="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message:</label>
+                  <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+              </form>
+            </div>
+          </div>
+        </section>
+      
+   </body>
+</html>
